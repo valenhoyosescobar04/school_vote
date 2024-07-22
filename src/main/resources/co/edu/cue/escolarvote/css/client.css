@@ -1,0 +1,201 @@
+.table-cell {
+    -fx-padding: 0.5em 0.5em 0.1em 0.3em;
+    -fx-border-color:  #072330;
+    -fx-border-width:0 0 0 0;
+    -fx-box-border: transparent transparent;
+    -fx-font: 13px "Segoe UI";
+    -fx-border-insets: 0;
+}
+
+
+
+
+
+.table-row-cell:empty, .table-cell:empty:hover {
+    -fx-background-color:  transparent;
+}
+
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width:0 0 0 0;
+}
+
+
+.table-view:row-selection .table-row-cell:filled:hover {
+    -fx-background-color: #a9aeb0;
+}
+
+
+.table-view:row-selection .table-row-cell:filled:selected:hover {
+    -fx-background-color: #a9aeb0;
+}
+
+
+.table-view:row-selection .table-row-cell:filled:selected {
+    -fx-background-color: #a9aeb0;
+}
+
+
+.table-view, .table-view:focused {
+  -fx-background-color:  #072330,-fx-box-border,-fx-control-inner-background;
+  -fx-background-insets: -1.4, 0, 1;
+  -fx-background-radius: 1.4, 0, 0;
+}
+
+
+.table-view .column-header .label{
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+
+.table-view .column-header:hover {
+    -fx-background-color:   #072330;
+}
+
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color:    #2c2e30;
+    -fx-size: 45;
+    -fx-border-color:   white;
+    -fx-border-width: 0;
+    -fx-border-insets: 0;
+}
+
+
+.table-view .column-header-background {
+    -fx-background-color:   white;
+}
+
+
+.table-view .show-hide-columns-button {
+    -fx-background-color: white;
+    -fx-border-color:  white;
+    -fx-border-width:0 0 0 0;
+    -fx-border-insets: 0;
+}
+
+#principal{
+    -fx-background-image: url("../images/fondo.jpg");
+}
+
+.text-input{
+    -fx-prompt-text-fill:#f5f5f5;
+    -fx-text-fill : white;
+    -fx-background-color:transparent;
+    -fx-border-color:grey;
+    -fx-border-radius:2;
+}
+
+
+
+.comboBox{
+    -fx-border-width: 0.5;
+    -fx-border-color:#ACACAC;
+    -fx-border-radius:50;
+    -fx-background-radius:50;
+    -fx-font-size:12;
+    -fx-padding:0;
+    -fx-font-weight:300;
+    -fx-font-family:'Open Sans','Helvetica Neue','Arail','sans-serif';
+}
+
+.textFilder{
+    -fx-border-width: 0 0 2 0;
+}
+
+.datePicker{
+    -fx-background-color:transparent
+}
+
+/*button white ---------------------------------------------------------------------------------------------------------------------------------*/
+
+.button1{
+-fx-background-color : white;
+-fx-background-radius :  90;
+-fx-text-fill:black;
+}
+.button1:hover
+{
+-fx-background-color : #e6e3e3 ;
+-fx-background-radius :  90;
+-fx-opacity:0.95;
+}
+.button1:pressed
+{
+-fx-background-color : #c9c7c7 ;
+-fx-background-radius :  90;
+-fx-opacity:0.90;
+}
+
+/*button white ---------------------------------------------------------------------------------------------------------------------------------*/
+/*button transparent navigation ---------------------------------------------------------------------------------------------------------------------------------*/
+
+.button2
+{
+-fx-background-color : transparent;
+-fx-background-radius :  10;
+-fx-text-fill:white;
+
+}
+.button2:hover
+{
+-fx-background-color : #595959 ;
+-fx-background-radius :  10;
+-fx-opacity:0.95;
+-fx-text-fill:white;
+}
+.button2:pressed
+{
+-fx-background-color : #868686 ;
+-fx-background-radius :  10;
+-fx-opacity:0.9;
+-fx-text-fill:white;
+}
+
+/*button transparent navigation ---------------------------------------------------------------------------------------------------------------------------------*/
+
+.button3
+{
+    -fx-background-color :linear-gradient(to top left, #35ACF1, #F6B46F);
+    -fx-background-radius :  12;
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-color: linear-gradient(to top left, #35ACF1, #F6B46F);
+
+}
+.button3:hover
+{
+    -fx-background-color :linear-gradient(to top left,  #F6B46F,#35ACF1);
+    -fx-background-radius :  12;
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-color: linear-gradient(to top left, #F6B46F,#35ACF1);
+}
+.button3:pressed
+{
+   -fx-background-color :linear-gradient(to top left, #35ACF1, #F6B46F);
+    -fx-background-radius :  12;
+    -fx-border-style: solid;
+    -fx-border-radius: 12;
+    -fx-border-insets: -5;
+    -fx-border-color: linear-gradient(to top left, #35ACF1, #F6B46F);
+}
+
+.button4
+{
+    -fx-background-color :linear-gradient(to top left, #41951C, #D4CEE3);
+    -fx-background-radius :  30 30 30 30;
+}
+.button4:hover
+{
+    -fx-background-color :linear-gradient(to top left, #D4CEE3, #41951C);
+    -fx-background-radius :  30 30 30 30;
+}
+.button4:pressed
+{
+    -fx-background-color :linear-gradient(to top left, #41951C, #D4CEE3);
+    -fx-background-radius :  30 30 30 30;
+}

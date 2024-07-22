@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1283.3" style="-fx-background-color: f7b8b3;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.cue.escolarvote.controller.MainViewController">
+   <children>
+      <ImageView fitHeight="375.0" fitWidth="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/6c0c488a-8483-4fda-902d-1c6cb39ae976-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="171.0" prefWidth="472.0" spacing="70.0">
+         <children>
+            <Button fx:id="voterBtn" mnemonicParsing="false" onAction="#VoterLogin" prefHeight="102.0" prefWidth="222.0" style="-fx-background-color: db6e7c;" text="Votante" textFill="#ece3e3">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="adminBtn" mnemonicParsing="false" onAction="#AdminLogin" prefHeight="102.0" prefWidth="222.0" style="-fx-background-color: db6e7c;" text="Administrador" textFill="#ece3e3">
+               <font>
+                  <Font size="25.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+   <stylesheets>
+      <URL value="@../css/style.css" />
+      <URL value="@../css/login.css" />
+   </stylesheets>
+</VBox>
